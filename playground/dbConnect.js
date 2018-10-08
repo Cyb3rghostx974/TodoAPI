@@ -16,9 +16,9 @@ MongoClient.connect("mongodb://localhost:27017/TodoApp", (err, client) => {
     
     db.collection('Users').insertOne({
         
-        id: '1',
-        email: 'ludovic.lvnr@gmail.com',
-        password: 'blablasecret',
+        id: '3',
+        email: 'zaza@gmail.com',
+        password: 'zazazoizo',
         completed: true
         
     }, (err, result) => {
